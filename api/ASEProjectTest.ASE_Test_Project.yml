@@ -1,0 +1,23 @@
+### YamlMime:ManagedReference
+items:
+- uid: ASEProjectTest.ASE_Test_Project
+  commentId: N:ASEProjectTest.ASE_Test_Project
+  id: ASEProjectTest.ASE_Test_Project
+  children:
+  - ASEProjectTest.ASE_Test_Project.CommandFactoryTest
+  langs:
+  - csharp
+  - vb
+  name: ASEProjectTest.ASE_Test_Project
+  nameWithType: ASEProjectTest.ASE_Test_Project
+  fullName: ASEProjectTest.ASE_Test_Project
+  type: Namespace
+  assemblies:
+  - ASEProjectTest
+references:
+- uid: ASEProjectTest.ASE_Test_Project.CommandFactoryTest
+  commentId: T:ASEProjectTest.ASE_Test_Project.CommandFactoryTest
+  href: ASEProjectTest.ASE_Test_Project.CommandFactoryTest.html
+  name: CommandFactoryTest
+  nameWithType: CommandFactoryTest
+  fullName: ASEProjectTest.ASE_Test_Project.CommandFactoryTest

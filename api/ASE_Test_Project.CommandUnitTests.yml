@@ -1,0 +1,479 @@
+### YamlMime:ManagedReference
+items:
+- uid: ASE_Test_Project.CommandUnitTests
+  commentId: T:ASE_Test_Project.CommandUnitTests
+  id: CommandUnitTests
+  parent: ASE_Test_Project
+  children:
+  - ASE_Test_Project.CommandUnitTests.Setup
+  - ASE_Test_Project.CommandUnitTests.Test_MultipleCommand_ShouldNotChangeGlobalOutputExceptionMsg
+  - ASE_Test_Project.CommandUnitTests.Test_RunProgram_ShouldNotChangeGlobalOutputExceptionMsg
+  - ASE_Test_Project.CommandUnitTests.Test_RunSingleCommand_ShouldNotChangeGlobalOutputExceptionMsg
+  langs:
+  - csharp
+  - vb
+  name: CommandUnitTests
+  nameWithType: CommandUnitTests
+  fullName: ASE_Test_Project.CommandUnitTests
+  type: Class
+  source:
+    remote:
+      path: ASEProjectTest/CommandUnitTests.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-Ayush2487342.git
+    id: CommandUnitTests
+    path: ASEProjectTest/CommandUnitTests.cs
+    startLine: 17
+  assemblies:
+  - ASEProjectTest
+  namespace: ASE_Test_Project
+  summary: Contains unit tests for command execution within the application.
+  remarks: >-
+    This class ensures that command execution is properly isolated without altering the global state.
+
+    It utilizes mock dependencies to test interactions between components such as the command factory, parser, and stored program.
+  example: []
+  syntax:
+    content: >-
+      [TestClass]
+
+      public class CommandUnitTests
+    content.vb: >-
+      <TestClass>
+
+      Public Class CommandUnitTests
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestClassAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestClassAttribute.#ctor
+    arguments: []
+- uid: ASE_Test_Project.CommandUnitTests.Setup
+  commentId: M:ASE_Test_Project.CommandUnitTests.Setup
+  id: Setup
+  parent: ASE_Test_Project.CommandUnitTests
+  langs:
+  - csharp
+  - vb
+  name: Setup()
+  nameWithType: CommandUnitTests.Setup()
+  fullName: ASE_Test_Project.CommandUnitTests.Setup()
+  type: Method
+  source:
+    remote:
+      path: ASEProjectTest/CommandUnitTests.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-Ayush2487342.git
+    id: Setup
+    path: ASEProjectTest/CommandUnitTests.cs
+    startLine: 46
+  assemblies:
+  - ASEProjectTest
+  namespace: ASE_Test_Project
+  summary: Initializes mock objects and dependencies before each test to ensure a consistent test environment.
+  remarks: Called before each test method runs.
+  example: []
+  syntax:
+    content: >-
+      [TestInitialize]
+
+      public void Setup()
+    content.vb: >-
+      <TestInitialize>
+
+      Public Sub Setup()
+  overload: ASE_Test_Project.CommandUnitTests.Setup*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestInitializeAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestInitializeAttribute.#ctor
+    arguments: []
+- uid: ASE_Test_Project.CommandUnitTests.Test_RunProgram_ShouldNotChangeGlobalOutputExceptionMsg
+  commentId: M:ASE_Test_Project.CommandUnitTests.Test_RunProgram_ShouldNotChangeGlobalOutputExceptionMsg
+  id: Test_RunProgram_ShouldNotChangeGlobalOutputExceptionMsg
+  parent: ASE_Test_Project.CommandUnitTests
+  langs:
+  - csharp
+  - vb
+  name: Test_RunProgram_ShouldNotChangeGlobalOutputExceptionMsg()
+  nameWithType: CommandUnitTests.Test_RunProgram_ShouldNotChangeGlobalOutputExceptionMsg()
+  fullName: ASE_Test_Project.CommandUnitTests.Test_RunProgram_ShouldNotChangeGlobalOutputExceptionMsg()
+  type: Method
+  source:
+    remote:
+      path: ASEProjectTest/CommandUnitTests.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-Ayush2487342.git
+    id: Test_RunProgram_ShouldNotChangeGlobalOutputExceptionMsg
+    path: ASEProjectTest/CommandUnitTests.cs
+    startLine: 58
+  assemblies:
+  - ASEProjectTest
+  namespace: ASE_Test_Project
+  summary: Tests that executing a predefined sequence of commands does not change the global output exception message.
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void Test_RunProgram_ShouldNotChangeGlobalOutputExceptionMsg()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub Test_RunProgram_ShouldNotChangeGlobalOutputExceptionMsg()
+  overload: ASE_Test_Project.CommandUnitTests.Test_RunProgram_ShouldNotChangeGlobalOutputExceptionMsg*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+- uid: ASE_Test_Project.CommandUnitTests.Test_RunSingleCommand_ShouldNotChangeGlobalOutputExceptionMsg
+  commentId: M:ASE_Test_Project.CommandUnitTests.Test_RunSingleCommand_ShouldNotChangeGlobalOutputExceptionMsg
+  id: Test_RunSingleCommand_ShouldNotChangeGlobalOutputExceptionMsg
+  parent: ASE_Test_Project.CommandUnitTests
+  langs:
+  - csharp
+  - vb
+  name: Test_RunSingleCommand_ShouldNotChangeGlobalOutputExceptionMsg()
+  nameWithType: CommandUnitTests.Test_RunSingleCommand_ShouldNotChangeGlobalOutputExceptionMsg()
+  fullName: ASE_Test_Project.CommandUnitTests.Test_RunSingleCommand_ShouldNotChangeGlobalOutputExceptionMsg()
+  type: Method
+  source:
+    remote:
+      path: ASEProjectTest/CommandUnitTests.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-Ayush2487342.git
+    id: Test_RunSingleCommand_ShouldNotChangeGlobalOutputExceptionMsg
+    path: ASEProjectTest/CommandUnitTests.cs
+    startLine: 70
+  assemblies:
+  - ASEProjectTest
+  namespace: ASE_Test_Project
+  summary: Tests that executing a single valid command does not produce an exception or change the global output exception message.
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void Test_RunSingleCommand_ShouldNotChangeGlobalOutputExceptionMsg()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub Test_RunSingleCommand_ShouldNotChangeGlobalOutputExceptionMsg()
+  overload: ASE_Test_Project.CommandUnitTests.Test_RunSingleCommand_ShouldNotChangeGlobalOutputExceptionMsg*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+- uid: ASE_Test_Project.CommandUnitTests.Test_MultipleCommand_ShouldNotChangeGlobalOutputExceptionMsg
+  commentId: M:ASE_Test_Project.CommandUnitTests.Test_MultipleCommand_ShouldNotChangeGlobalOutputExceptionMsg
+  id: Test_MultipleCommand_ShouldNotChangeGlobalOutputExceptionMsg
+  parent: ASE_Test_Project.CommandUnitTests
+  langs:
+  - csharp
+  - vb
+  name: Test_MultipleCommand_ShouldNotChangeGlobalOutputExceptionMsg()
+  nameWithType: CommandUnitTests.Test_MultipleCommand_ShouldNotChangeGlobalOutputExceptionMsg()
+  fullName: ASE_Test_Project.CommandUnitTests.Test_MultipleCommand_ShouldNotChangeGlobalOutputExceptionMsg()
+  type: Method
+  source:
+    remote:
+      path: ASEProjectTest/CommandUnitTests.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-Ayush2487342.git
+    id: Test_MultipleCommand_ShouldNotChangeGlobalOutputExceptionMsg
+    path: ASEProjectTest/CommandUnitTests.cs
+    startLine: 82
+  assemblies:
+  - ASEProjectTest
+  namespace: ASE_Test_Project
+  summary: Verifies that executing multiple commands sequentially does not trigger any exceptions or alter global output messages.
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void Test_MultipleCommand_ShouldNotChangeGlobalOutputExceptionMsg()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub Test_MultipleCommand_ShouldNotChangeGlobalOutputExceptionMsg()
+  overload: ASE_Test_Project.CommandUnitTests.Test_MultipleCommand_ShouldNotChangeGlobalOutputExceptionMsg*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+references:
+- uid: ASE_Test_Project
+  commentId: N:ASE_Test_Project
+  href: ASE_Test_Project.html
+  name: ASE_Test_Project
+  nameWithType: ASE_Test_Project
+  fullName: ASE_Test_Project
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: ASE_Test_Project.CommandUnitTests.Setup*
+  commentId: Overload:ASE_Test_Project.CommandUnitTests.Setup
+  href: ASE_Test_Project.CommandUnitTests.html#ASE_Test_Project_CommandUnitTests_Setup
+  name: Setup
+  nameWithType: CommandUnitTests.Setup
+  fullName: ASE_Test_Project.CommandUnitTests.Setup
+- uid: ASE_Test_Project.CommandUnitTests.Test_RunProgram_ShouldNotChangeGlobalOutputExceptionMsg*
+  commentId: Overload:ASE_Test_Project.CommandUnitTests.Test_RunProgram_ShouldNotChangeGlobalOutputExceptionMsg
+  href: ASE_Test_Project.CommandUnitTests.html#ASE_Test_Project_CommandUnitTests_Test_RunProgram_ShouldNotChangeGlobalOutputExceptionMsg
+  name: Test_RunProgram_ShouldNotChangeGlobalOutputExceptionMsg
+  nameWithType: CommandUnitTests.Test_RunProgram_ShouldNotChangeGlobalOutputExceptionMsg
+  fullName: ASE_Test_Project.CommandUnitTests.Test_RunProgram_ShouldNotChangeGlobalOutputExceptionMsg
+- uid: ASE_Test_Project.CommandUnitTests.Test_RunSingleCommand_ShouldNotChangeGlobalOutputExceptionMsg*
+  commentId: Overload:ASE_Test_Project.CommandUnitTests.Test_RunSingleCommand_ShouldNotChangeGlobalOutputExceptionMsg
+  href: ASE_Test_Project.CommandUnitTests.html#ASE_Test_Project_CommandUnitTests_Test_RunSingleCommand_ShouldNotChangeGlobalOutputExceptionMsg
+  name: Test_RunSingleCommand_ShouldNotChangeGlobalOutputExceptionMsg
+  nameWithType: CommandUnitTests.Test_RunSingleCommand_ShouldNotChangeGlobalOutputExceptionMsg
+  fullName: ASE_Test_Project.CommandUnitTests.Test_RunSingleCommand_ShouldNotChangeGlobalOutputExceptionMsg
+- uid: ASE_Test_Project.CommandUnitTests.Test_MultipleCommand_ShouldNotChangeGlobalOutputExceptionMsg*
+  commentId: Overload:ASE_Test_Project.CommandUnitTests.Test_MultipleCommand_ShouldNotChangeGlobalOutputExceptionMsg
+  href: ASE_Test_Project.CommandUnitTests.html#ASE_Test_Project_CommandUnitTests_Test_MultipleCommand_ShouldNotChangeGlobalOutputExceptionMsg
+  name: Test_MultipleCommand_ShouldNotChangeGlobalOutputExceptionMsg
+  nameWithType: CommandUnitTests.Test_MultipleCommand_ShouldNotChangeGlobalOutputExceptionMsg
+  fullName: ASE_Test_Project.CommandUnitTests.Test_MultipleCommand_ShouldNotChangeGlobalOutputExceptionMsg

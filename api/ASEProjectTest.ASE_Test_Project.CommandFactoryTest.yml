@@ -1,0 +1,989 @@
+### YamlMime:ManagedReference
+items:
+- uid: ASEProjectTest.ASE_Test_Project.CommandFactoryTest
+  commentId: T:ASEProjectTest.ASE_Test_Project.CommandFactoryTest
+  id: CommandFactoryTest
+  parent: ASEProjectTest.ASE_Test_Project
+  children:
+  - ASEProjectTest.ASE_Test_Project.CommandFactoryTest.SetUp
+  - ASEProjectTest.ASE_Test_Project.CommandFactoryTest.TestMakeCommand_Circle_ShouldReturnAppCircle
+  - ASEProjectTest.ASE_Test_Project.CommandFactoryTest.TestMakeCommand_Clear_ShouldReturnClear
+  - ASEProjectTest.ASE_Test_Project.CommandFactoryTest.TestMakeCommand_DrawTo_ShouldReturnAppDrawTo
+  - ASEProjectTest.ASE_Test_Project.CommandFactoryTest.TestMakeCommand_Fill_ShouldReturnFill
+  - ASEProjectTest.ASE_Test_Project.CommandFactoryTest.TestMakeCommand_InvalidCommand_ShouldThrowFactoryException
+  - ASEProjectTest.ASE_Test_Project.CommandFactoryTest.TestMakeCommand_MoveTo_ShouldReturnAppMoveTo
+  - ASEProjectTest.ASE_Test_Project.CommandFactoryTest.TestMakeCommand_PenColour_ShouldReturnAppPenColour
+  - ASEProjectTest.ASE_Test_Project.CommandFactoryTest.TestMakeCommand_PenSize_ShouldReturnPenSize
+  - ASEProjectTest.ASE_Test_Project.CommandFactoryTest.TestMakeCommand_Rect_ShouldReturnAppRectangle
+  - ASEProjectTest.ASE_Test_Project.CommandFactoryTest.TestMakeCommand_Reset_ShouldReturnReset
+  - ASEProjectTest.ASE_Test_Project.CommandFactoryTest.TestMakeCommand_Tri_ShouldReturnTriangle
+  - ASEProjectTest.ASE_Test_Project.CommandFactoryTest.TestMakeCommand_WriteTo_ShouldReturnWriteTo
+  langs:
+  - csharp
+  - vb
+  name: CommandFactoryTest
+  nameWithType: CommandFactoryTest
+  fullName: ASEProjectTest.ASE_Test_Project.CommandFactoryTest
+  type: Class
+  source:
+    remote:
+      path: ASEProjectTest/CommandFactoryTest.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-Ayush2487342.git
+    id: CommandFactoryTest
+    path: ASEProjectTest/CommandFactoryTest.cs
+    startLine: 17
+  assemblies:
+  - ASEProjectTest
+  namespace: ASEProjectTest.ASE_Test_Project
+  summary: Test class to verify the behavior of the AppCommandFactory and its command creation logic.
+  example: []
+  syntax:
+    content: >-
+      [TestClass]
+
+      public class CommandFactoryTest
+    content.vb: >-
+      <TestClass>
+
+      Public Class CommandFactoryTest
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestClassAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestClassAttribute.#ctor
+    arguments: []
+- uid: ASEProjectTest.ASE_Test_Project.CommandFactoryTest.SetUp
+  commentId: M:ASEProjectTest.ASE_Test_Project.CommandFactoryTest.SetUp
+  id: SetUp
+  parent: ASEProjectTest.ASE_Test_Project.CommandFactoryTest
+  langs:
+  - csharp
+  - vb
+  name: SetUp()
+  nameWithType: CommandFactoryTest.SetUp()
+  fullName: ASEProjectTest.ASE_Test_Project.CommandFactoryTest.SetUp()
+  type: Method
+  source:
+    remote:
+      path: ASEProjectTest/CommandFactoryTest.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-Ayush2487342.git
+    id: SetUp
+    path: ASEProjectTest/CommandFactoryTest.cs
+    startLine: 25
+  assemblies:
+  - ASEProjectTest
+  namespace: ASEProjectTest.ASE_Test_Project
+  summary: Initializes a new instance of the <xref href="Ase_AyushK.C._77356749.Commands" data-throw-if-not-resolved="false"></xref> class before each test method is executed.
+  example: []
+  syntax:
+    content: >-
+      [TestInitialize]
+
+      public void SetUp()
+    content.vb: >-
+      <TestInitialize>
+
+      Public Sub SetUp()
+  overload: ASEProjectTest.ASE_Test_Project.CommandFactoryTest.SetUp*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestInitializeAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestInitializeAttribute.#ctor
+    arguments: []
+- uid: ASEProjectTest.ASE_Test_Project.CommandFactoryTest.TestMakeCommand_Circle_ShouldReturnAppCircle
+  commentId: M:ASEProjectTest.ASE_Test_Project.CommandFactoryTest.TestMakeCommand_Circle_ShouldReturnAppCircle
+  id: TestMakeCommand_Circle_ShouldReturnAppCircle
+  parent: ASEProjectTest.ASE_Test_Project.CommandFactoryTest
+  langs:
+  - csharp
+  - vb
+  name: TestMakeCommand_Circle_ShouldReturnAppCircle()
+  nameWithType: CommandFactoryTest.TestMakeCommand_Circle_ShouldReturnAppCircle()
+  fullName: ASEProjectTest.ASE_Test_Project.CommandFactoryTest.TestMakeCommand_Circle_ShouldReturnAppCircle()
+  type: Method
+  source:
+    remote:
+      path: ASEProjectTest/CommandFactoryTest.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-Ayush2487342.git
+    id: TestMakeCommand_Circle_ShouldReturnAppCircle
+    path: ASEProjectTest/CommandFactoryTest.cs
+    startLine: 34
+  assemblies:
+  - ASEProjectTest
+  namespace: ASEProjectTest.ASE_Test_Project
+  summary: Verifies that the "circle" command creates an instance of <xref href="Ase_AyushK.C._77356749.Circles" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void TestMakeCommand_Circle_ShouldReturnAppCircle()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub TestMakeCommand_Circle_ShouldReturnAppCircle()
+  overload: ASEProjectTest.ASE_Test_Project.CommandFactoryTest.TestMakeCommand_Circle_ShouldReturnAppCircle*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+- uid: ASEProjectTest.ASE_Test_Project.CommandFactoryTest.TestMakeCommand_MoveTo_ShouldReturnAppMoveTo
+  commentId: M:ASEProjectTest.ASE_Test_Project.CommandFactoryTest.TestMakeCommand_MoveTo_ShouldReturnAppMoveTo
+  id: TestMakeCommand_MoveTo_ShouldReturnAppMoveTo
+  parent: ASEProjectTest.ASE_Test_Project.CommandFactoryTest
+  langs:
+  - csharp
+  - vb
+  name: TestMakeCommand_MoveTo_ShouldReturnAppMoveTo()
+  nameWithType: CommandFactoryTest.TestMakeCommand_MoveTo_ShouldReturnAppMoveTo()
+  fullName: ASEProjectTest.ASE_Test_Project.CommandFactoryTest.TestMakeCommand_MoveTo_ShouldReturnAppMoveTo()
+  type: Method
+  source:
+    remote:
+      path: ASEProjectTest/CommandFactoryTest.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-Ayush2487342.git
+    id: TestMakeCommand_MoveTo_ShouldReturnAppMoveTo
+    path: ASEProjectTest/CommandFactoryTest.cs
+    startLine: 50
+  assemblies:
+  - ASEProjectTest
+  namespace: ASEProjectTest.ASE_Test_Project
+  summary: Verifies that the "moveto" command creates an instance of <xref href="Ase_AyushK.C._77356749.Mover" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void TestMakeCommand_MoveTo_ShouldReturnAppMoveTo()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub TestMakeCommand_MoveTo_ShouldReturnAppMoveTo()
+  overload: ASEProjectTest.ASE_Test_Project.CommandFactoryTest.TestMakeCommand_MoveTo_ShouldReturnAppMoveTo*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+- uid: ASEProjectTest.ASE_Test_Project.CommandFactoryTest.TestMakeCommand_Rect_ShouldReturnAppRectangle
+  commentId: M:ASEProjectTest.ASE_Test_Project.CommandFactoryTest.TestMakeCommand_Rect_ShouldReturnAppRectangle
+  id: TestMakeCommand_Rect_ShouldReturnAppRectangle
+  parent: ASEProjectTest.ASE_Test_Project.CommandFactoryTest
+  langs:
+  - csharp
+  - vb
+  name: TestMakeCommand_Rect_ShouldReturnAppRectangle()
+  nameWithType: CommandFactoryTest.TestMakeCommand_Rect_ShouldReturnAppRectangle()
+  fullName: ASEProjectTest.ASE_Test_Project.CommandFactoryTest.TestMakeCommand_Rect_ShouldReturnAppRectangle()
+  type: Method
+  source:
+    remote:
+      path: ASEProjectTest/CommandFactoryTest.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-Ayush2487342.git
+    id: TestMakeCommand_Rect_ShouldReturnAppRectangle
+    path: ASEProjectTest/CommandFactoryTest.cs
+    startLine: 66
+  assemblies:
+  - ASEProjectTest
+  namespace: ASEProjectTest.ASE_Test_Project
+  summary: Verifies that the "rect" command creates an instance of <xref href="Ase_AyushK.C._77356749.Rectangles" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void TestMakeCommand_Rect_ShouldReturnAppRectangle()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub TestMakeCommand_Rect_ShouldReturnAppRectangle()
+  overload: ASEProjectTest.ASE_Test_Project.CommandFactoryTest.TestMakeCommand_Rect_ShouldReturnAppRectangle*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+- uid: ASEProjectTest.ASE_Test_Project.CommandFactoryTest.TestMakeCommand_Tri_ShouldReturnTriangle
+  commentId: M:ASEProjectTest.ASE_Test_Project.CommandFactoryTest.TestMakeCommand_Tri_ShouldReturnTriangle
+  id: TestMakeCommand_Tri_ShouldReturnTriangle
+  parent: ASEProjectTest.ASE_Test_Project.CommandFactoryTest
+  langs:
+  - csharp
+  - vb
+  name: TestMakeCommand_Tri_ShouldReturnTriangle()
+  nameWithType: CommandFactoryTest.TestMakeCommand_Tri_ShouldReturnTriangle()
+  fullName: ASEProjectTest.ASE_Test_Project.CommandFactoryTest.TestMakeCommand_Tri_ShouldReturnTriangle()
+  type: Method
+  source:
+    remote:
+      path: ASEProjectTest/CommandFactoryTest.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-Ayush2487342.git
+    id: TestMakeCommand_Tri_ShouldReturnTriangle
+    path: ASEProjectTest/CommandFactoryTest.cs
+    startLine: 82
+  assemblies:
+  - ASEProjectTest
+  namespace: ASEProjectTest.ASE_Test_Project
+  summary: Verifies that the "tri" command creates an instance of <xref href="Ase_AyushK.C._77356749.Triangle" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void TestMakeCommand_Tri_ShouldReturnTriangle()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub TestMakeCommand_Tri_ShouldReturnTriangle()
+  overload: ASEProjectTest.ASE_Test_Project.CommandFactoryTest.TestMakeCommand_Tri_ShouldReturnTriangle*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+- uid: ASEProjectTest.ASE_Test_Project.CommandFactoryTest.TestMakeCommand_WriteTo_ShouldReturnWriteTo
+  commentId: M:ASEProjectTest.ASE_Test_Project.CommandFactoryTest.TestMakeCommand_WriteTo_ShouldReturnWriteTo
+  id: TestMakeCommand_WriteTo_ShouldReturnWriteTo
+  parent: ASEProjectTest.ASE_Test_Project.CommandFactoryTest
+  langs:
+  - csharp
+  - vb
+  name: TestMakeCommand_WriteTo_ShouldReturnWriteTo()
+  nameWithType: CommandFactoryTest.TestMakeCommand_WriteTo_ShouldReturnWriteTo()
+  fullName: ASEProjectTest.ASE_Test_Project.CommandFactoryTest.TestMakeCommand_WriteTo_ShouldReturnWriteTo()
+  type: Method
+  source:
+    remote:
+      path: ASEProjectTest/CommandFactoryTest.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-Ayush2487342.git
+    id: TestMakeCommand_WriteTo_ShouldReturnWriteTo
+    path: ASEProjectTest/CommandFactoryTest.cs
+    startLine: 98
+  assemblies:
+  - ASEProjectTest
+  namespace: ASEProjectTest.ASE_Test_Project
+  summary: Verifies that the "writeto" command creates an instance of <xref href="Ase_AyushK.C._77356749.Writeto" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void TestMakeCommand_WriteTo_ShouldReturnWriteTo()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub TestMakeCommand_WriteTo_ShouldReturnWriteTo()
+  overload: ASEProjectTest.ASE_Test_Project.CommandFactoryTest.TestMakeCommand_WriteTo_ShouldReturnWriteTo*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+- uid: ASEProjectTest.ASE_Test_Project.CommandFactoryTest.TestMakeCommand_DrawTo_ShouldReturnAppDrawTo
+  commentId: M:ASEProjectTest.ASE_Test_Project.CommandFactoryTest.TestMakeCommand_DrawTo_ShouldReturnAppDrawTo
+  id: TestMakeCommand_DrawTo_ShouldReturnAppDrawTo
+  parent: ASEProjectTest.ASE_Test_Project.CommandFactoryTest
+  langs:
+  - csharp
+  - vb
+  name: TestMakeCommand_DrawTo_ShouldReturnAppDrawTo()
+  nameWithType: CommandFactoryTest.TestMakeCommand_DrawTo_ShouldReturnAppDrawTo()
+  fullName: ASEProjectTest.ASE_Test_Project.CommandFactoryTest.TestMakeCommand_DrawTo_ShouldReturnAppDrawTo()
+  type: Method
+  source:
+    remote:
+      path: ASEProjectTest/CommandFactoryTest.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-Ayush2487342.git
+    id: TestMakeCommand_DrawTo_ShouldReturnAppDrawTo
+    path: ASEProjectTest/CommandFactoryTest.cs
+    startLine: 114
+  assemblies:
+  - ASEProjectTest
+  namespace: ASEProjectTest.ASE_Test_Project
+  summary: Verifies that the "drawto" command creates an instance of <xref href="Ase_AyushK.C._77356749.Draw" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void TestMakeCommand_DrawTo_ShouldReturnAppDrawTo()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub TestMakeCommand_DrawTo_ShouldReturnAppDrawTo()
+  overload: ASEProjectTest.ASE_Test_Project.CommandFactoryTest.TestMakeCommand_DrawTo_ShouldReturnAppDrawTo*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+- uid: ASEProjectTest.ASE_Test_Project.CommandFactoryTest.TestMakeCommand_PenColour_ShouldReturnAppPenColour
+  commentId: M:ASEProjectTest.ASE_Test_Project.CommandFactoryTest.TestMakeCommand_PenColour_ShouldReturnAppPenColour
+  id: TestMakeCommand_PenColour_ShouldReturnAppPenColour
+  parent: ASEProjectTest.ASE_Test_Project.CommandFactoryTest
+  langs:
+  - csharp
+  - vb
+  name: TestMakeCommand_PenColour_ShouldReturnAppPenColour()
+  nameWithType: CommandFactoryTest.TestMakeCommand_PenColour_ShouldReturnAppPenColour()
+  fullName: ASEProjectTest.ASE_Test_Project.CommandFactoryTest.TestMakeCommand_PenColour_ShouldReturnAppPenColour()
+  type: Method
+  source:
+    remote:
+      path: ASEProjectTest/CommandFactoryTest.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-Ayush2487342.git
+    id: TestMakeCommand_PenColour_ShouldReturnAppPenColour
+    path: ASEProjectTest/CommandFactoryTest.cs
+    startLine: 130
+  assemblies:
+  - ASEProjectTest
+  namespace: ASEProjectTest.ASE_Test_Project
+  summary: Verifies that the "pencolour" command creates an instance of <xref href="Ase_AyushK.C._77356749.PenColourChanger" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void TestMakeCommand_PenColour_ShouldReturnAppPenColour()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub TestMakeCommand_PenColour_ShouldReturnAppPenColour()
+  overload: ASEProjectTest.ASE_Test_Project.CommandFactoryTest.TestMakeCommand_PenColour_ShouldReturnAppPenColour*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+- uid: ASEProjectTest.ASE_Test_Project.CommandFactoryTest.TestMakeCommand_Fill_ShouldReturnFill
+  commentId: M:ASEProjectTest.ASE_Test_Project.CommandFactoryTest.TestMakeCommand_Fill_ShouldReturnFill
+  id: TestMakeCommand_Fill_ShouldReturnFill
+  parent: ASEProjectTest.ASE_Test_Project.CommandFactoryTest
+  langs:
+  - csharp
+  - vb
+  name: TestMakeCommand_Fill_ShouldReturnFill()
+  nameWithType: CommandFactoryTest.TestMakeCommand_Fill_ShouldReturnFill()
+  fullName: ASEProjectTest.ASE_Test_Project.CommandFactoryTest.TestMakeCommand_Fill_ShouldReturnFill()
+  type: Method
+  source:
+    remote:
+      path: ASEProjectTest/CommandFactoryTest.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-Ayush2487342.git
+    id: TestMakeCommand_Fill_ShouldReturnFill
+    path: ASEProjectTest/CommandFactoryTest.cs
+    startLine: 146
+  assemblies:
+  - ASEProjectTest
+  namespace: ASEProjectTest.ASE_Test_Project
+  summary: Verifies that the "fill" command creates an instance of <xref href="Ase_AyushK.C._77356749.Filler" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void TestMakeCommand_Fill_ShouldReturnFill()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub TestMakeCommand_Fill_ShouldReturnFill()
+  overload: ASEProjectTest.ASE_Test_Project.CommandFactoryTest.TestMakeCommand_Fill_ShouldReturnFill*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+- uid: ASEProjectTest.ASE_Test_Project.CommandFactoryTest.TestMakeCommand_PenSize_ShouldReturnPenSize
+  commentId: M:ASEProjectTest.ASE_Test_Project.CommandFactoryTest.TestMakeCommand_PenSize_ShouldReturnPenSize
+  id: TestMakeCommand_PenSize_ShouldReturnPenSize
+  parent: ASEProjectTest.ASE_Test_Project.CommandFactoryTest
+  langs:
+  - csharp
+  - vb
+  name: TestMakeCommand_PenSize_ShouldReturnPenSize()
+  nameWithType: CommandFactoryTest.TestMakeCommand_PenSize_ShouldReturnPenSize()
+  fullName: ASEProjectTest.ASE_Test_Project.CommandFactoryTest.TestMakeCommand_PenSize_ShouldReturnPenSize()
+  type: Method
+  source:
+    remote:
+      path: ASEProjectTest/CommandFactoryTest.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-Ayush2487342.git
+    id: TestMakeCommand_PenSize_ShouldReturnPenSize
+    path: ASEProjectTest/CommandFactoryTest.cs
+    startLine: 162
+  assemblies:
+  - ASEProjectTest
+  namespace: ASEProjectTest.ASE_Test_Project
+  summary: Verifies that the "pensize" command creates an instance of <xref href="Ase_AyushK.C._77356749.PenSize" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void TestMakeCommand_PenSize_ShouldReturnPenSize()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub TestMakeCommand_PenSize_ShouldReturnPenSize()
+  overload: ASEProjectTest.ASE_Test_Project.CommandFactoryTest.TestMakeCommand_PenSize_ShouldReturnPenSize*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+- uid: ASEProjectTest.ASE_Test_Project.CommandFactoryTest.TestMakeCommand_Clear_ShouldReturnClear
+  commentId: M:ASEProjectTest.ASE_Test_Project.CommandFactoryTest.TestMakeCommand_Clear_ShouldReturnClear
+  id: TestMakeCommand_Clear_ShouldReturnClear
+  parent: ASEProjectTest.ASE_Test_Project.CommandFactoryTest
+  langs:
+  - csharp
+  - vb
+  name: TestMakeCommand_Clear_ShouldReturnClear()
+  nameWithType: CommandFactoryTest.TestMakeCommand_Clear_ShouldReturnClear()
+  fullName: ASEProjectTest.ASE_Test_Project.CommandFactoryTest.TestMakeCommand_Clear_ShouldReturnClear()
+  type: Method
+  source:
+    remote:
+      path: ASEProjectTest/CommandFactoryTest.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-Ayush2487342.git
+    id: TestMakeCommand_Clear_ShouldReturnClear
+    path: ASEProjectTest/CommandFactoryTest.cs
+    startLine: 178
+  assemblies:
+  - ASEProjectTest
+  namespace: ASEProjectTest.ASE_Test_Project
+  summary: Verifies that the "clear" command creates an instance of <xref href="Ase_AyushK.C._77356749.Clear" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void TestMakeCommand_Clear_ShouldReturnClear()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub TestMakeCommand_Clear_ShouldReturnClear()
+  overload: ASEProjectTest.ASE_Test_Project.CommandFactoryTest.TestMakeCommand_Clear_ShouldReturnClear*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+- uid: ASEProjectTest.ASE_Test_Project.CommandFactoryTest.TestMakeCommand_Reset_ShouldReturnReset
+  commentId: M:ASEProjectTest.ASE_Test_Project.CommandFactoryTest.TestMakeCommand_Reset_ShouldReturnReset
+  id: TestMakeCommand_Reset_ShouldReturnReset
+  parent: ASEProjectTest.ASE_Test_Project.CommandFactoryTest
+  langs:
+  - csharp
+  - vb
+  name: TestMakeCommand_Reset_ShouldReturnReset()
+  nameWithType: CommandFactoryTest.TestMakeCommand_Reset_ShouldReturnReset()
+  fullName: ASEProjectTest.ASE_Test_Project.CommandFactoryTest.TestMakeCommand_Reset_ShouldReturnReset()
+  type: Method
+  source:
+    remote:
+      path: ASEProjectTest/CommandFactoryTest.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-Ayush2487342.git
+    id: TestMakeCommand_Reset_ShouldReturnReset
+    path: ASEProjectTest/CommandFactoryTest.cs
+    startLine: 194
+  assemblies:
+  - ASEProjectTest
+  namespace: ASEProjectTest.ASE_Test_Project
+  summary: Verifies that the "reset" command creates an instance of <xref href="Ase_AyushK.C._77356749.Reset" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void TestMakeCommand_Reset_ShouldReturnReset()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub TestMakeCommand_Reset_ShouldReturnReset()
+  overload: ASEProjectTest.ASE_Test_Project.CommandFactoryTest.TestMakeCommand_Reset_ShouldReturnReset*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+- uid: ASEProjectTest.ASE_Test_Project.CommandFactoryTest.TestMakeCommand_InvalidCommand_ShouldThrowFactoryException
+  commentId: M:ASEProjectTest.ASE_Test_Project.CommandFactoryTest.TestMakeCommand_InvalidCommand_ShouldThrowFactoryException
+  id: TestMakeCommand_InvalidCommand_ShouldThrowFactoryException
+  parent: ASEProjectTest.ASE_Test_Project.CommandFactoryTest
+  langs:
+  - csharp
+  - vb
+  name: TestMakeCommand_InvalidCommand_ShouldThrowFactoryException()
+  nameWithType: CommandFactoryTest.TestMakeCommand_InvalidCommand_ShouldThrowFactoryException()
+  fullName: ASEProjectTest.ASE_Test_Project.CommandFactoryTest.TestMakeCommand_InvalidCommand_ShouldThrowFactoryException()
+  type: Method
+  source:
+    remote:
+      path: ASEProjectTest/CommandFactoryTest.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-Ayush2487342.git
+    id: TestMakeCommand_InvalidCommand_ShouldThrowFactoryException
+    path: ASEProjectTest/CommandFactoryTest.cs
+    startLine: 210
+  assemblies:
+  - ASEProjectTest
+  namespace: ASEProjectTest.ASE_Test_Project
+  summary: Verifies that invalid commands trigger a <xref href="BOOSE.FactoryException" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      [ExpectedException(typeof(FactoryException))]
+
+      public void TestMakeCommand_InvalidCommand_ShouldThrowFactoryException()
+    content.vb: >-
+      <TestMethod>
+
+      <ExpectedException(GetType(FactoryException))>
+
+      Public Sub TestMakeCommand_InvalidCommand_ShouldThrowFactoryException()
+  overload: ASEProjectTest.ASE_Test_Project.CommandFactoryTest.TestMakeCommand_InvalidCommand_ShouldThrowFactoryException*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.ExpectedExceptionAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.ExpectedExceptionAttribute.#ctor(System.Type)
+    arguments:
+    - type: System.Type
+      value: BOOSE.FactoryException
+references:
+- uid: ASEProjectTest.ASE_Test_Project
+  commentId: N:ASEProjectTest.ASE_Test_Project
+  href: ASEProjectTest.html
+  name: ASEProjectTest.ASE_Test_Project
+  nameWithType: ASEProjectTest.ASE_Test_Project
+  fullName: ASEProjectTest.ASE_Test_Project
+  spec.csharp:
+  - uid: ASEProjectTest
+    name: ASEProjectTest
+    href: ASEProjectTest.html
+  - name: .
+  - uid: ASEProjectTest.ASE_Test_Project
+    name: ASE_Test_Project
+    href: ASEProjectTest.ASE_Test_Project.html
+  spec.vb:
+  - uid: ASEProjectTest
+    name: ASEProjectTest
+    href: ASEProjectTest.html
+  - name: .
+  - uid: ASEProjectTest.ASE_Test_Project
+    name: ASE_Test_Project
+    href: ASEProjectTest.ASE_Test_Project.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Ase_AyushK.C._77356749.Commands
+  commentId: T:Ase_AyushK.C._77356749.Commands
+  href: Ase_AyushK.C._77356749.Commands.html
+  name: Commands
+  nameWithType: Commands
+  fullName: Ase_AyushK.C._77356749.Commands
+- uid: ASEProjectTest.ASE_Test_Project.CommandFactoryTest.SetUp*
+  commentId: Overload:ASEProjectTest.ASE_Test_Project.CommandFactoryTest.SetUp
+  href: ASEProjectTest.ASE_Test_Project.CommandFactoryTest.html#ASEProjectTest_ASE_Test_Project_CommandFactoryTest_SetUp
+  name: SetUp
+  nameWithType: CommandFactoryTest.SetUp
+  fullName: ASEProjectTest.ASE_Test_Project.CommandFactoryTest.SetUp
+- uid: Ase_AyushK.C._77356749.Circles
+  commentId: T:Ase_AyushK.C._77356749.Circles
+  href: Ase_AyushK.C._77356749.Circles.html
+  name: Circles
+  nameWithType: Circles
+  fullName: Ase_AyushK.C._77356749.Circles
+- uid: ASEProjectTest.ASE_Test_Project.CommandFactoryTest.TestMakeCommand_Circle_ShouldReturnAppCircle*
+  commentId: Overload:ASEProjectTest.ASE_Test_Project.CommandFactoryTest.TestMakeCommand_Circle_ShouldReturnAppCircle
+  href: ASEProjectTest.ASE_Test_Project.CommandFactoryTest.html#ASEProjectTest_ASE_Test_Project_CommandFactoryTest_TestMakeCommand_Circle_ShouldReturnAppCircle
+  name: TestMakeCommand_Circle_ShouldReturnAppCircle
+  nameWithType: CommandFactoryTest.TestMakeCommand_Circle_ShouldReturnAppCircle
+  fullName: ASEProjectTest.ASE_Test_Project.CommandFactoryTest.TestMakeCommand_Circle_ShouldReturnAppCircle
+- uid: Ase_AyushK.C._77356749.Mover
+  commentId: T:Ase_AyushK.C._77356749.Mover
+  href: Ase_AyushK.C._77356749.Mover.html
+  name: Mover
+  nameWithType: Mover
+  fullName: Ase_AyushK.C._77356749.Mover
+- uid: ASEProjectTest.ASE_Test_Project.CommandFactoryTest.TestMakeCommand_MoveTo_ShouldReturnAppMoveTo*
+  commentId: Overload:ASEProjectTest.ASE_Test_Project.CommandFactoryTest.TestMakeCommand_MoveTo_ShouldReturnAppMoveTo
+  href: ASEProjectTest.ASE_Test_Project.CommandFactoryTest.html#ASEProjectTest_ASE_Test_Project_CommandFactoryTest_TestMakeCommand_MoveTo_ShouldReturnAppMoveTo
+  name: TestMakeCommand_MoveTo_ShouldReturnAppMoveTo
+  nameWithType: CommandFactoryTest.TestMakeCommand_MoveTo_ShouldReturnAppMoveTo
+  fullName: ASEProjectTest.ASE_Test_Project.CommandFactoryTest.TestMakeCommand_MoveTo_ShouldReturnAppMoveTo
+- uid: Ase_AyushK.C._77356749.Rectangles
+  commentId: T:Ase_AyushK.C._77356749.Rectangles
+  href: Ase_AyushK.C._77356749.Rectangles.html
+  name: Rectangles
+  nameWithType: Rectangles
+  fullName: Ase_AyushK.C._77356749.Rectangles
+- uid: ASEProjectTest.ASE_Test_Project.CommandFactoryTest.TestMakeCommand_Rect_ShouldReturnAppRectangle*
+  commentId: Overload:ASEProjectTest.ASE_Test_Project.CommandFactoryTest.TestMakeCommand_Rect_ShouldReturnAppRectangle
+  href: ASEProjectTest.ASE_Test_Project.CommandFactoryTest.html#ASEProjectTest_ASE_Test_Project_CommandFactoryTest_TestMakeCommand_Rect_ShouldReturnAppRectangle
+  name: TestMakeCommand_Rect_ShouldReturnAppRectangle
+  nameWithType: CommandFactoryTest.TestMakeCommand_Rect_ShouldReturnAppRectangle
+  fullName: ASEProjectTest.ASE_Test_Project.CommandFactoryTest.TestMakeCommand_Rect_ShouldReturnAppRectangle
+- uid: Ase_AyushK.C._77356749.Triangle
+  commentId: T:Ase_AyushK.C._77356749.Triangle
+  href: Ase_AyushK.C._77356749.Triangle.html
+  name: Triangle
+  nameWithType: Triangle
+  fullName: Ase_AyushK.C._77356749.Triangle
+- uid: ASEProjectTest.ASE_Test_Project.CommandFactoryTest.TestMakeCommand_Tri_ShouldReturnTriangle*
+  commentId: Overload:ASEProjectTest.ASE_Test_Project.CommandFactoryTest.TestMakeCommand_Tri_ShouldReturnTriangle
+  href: ASEProjectTest.ASE_Test_Project.CommandFactoryTest.html#ASEProjectTest_ASE_Test_Project_CommandFactoryTest_TestMakeCommand_Tri_ShouldReturnTriangle
+  name: TestMakeCommand_Tri_ShouldReturnTriangle
+  nameWithType: CommandFactoryTest.TestMakeCommand_Tri_ShouldReturnTriangle
+  fullName: ASEProjectTest.ASE_Test_Project.CommandFactoryTest.TestMakeCommand_Tri_ShouldReturnTriangle
+- uid: Ase_AyushK.C._77356749.Writeto
+  commentId: T:Ase_AyushK.C._77356749.Writeto
+  href: Ase_AyushK.C._77356749.Writeto.html
+  name: Writeto
+  nameWithType: Writeto
+  fullName: Ase_AyushK.C._77356749.Writeto
+- uid: ASEProjectTest.ASE_Test_Project.CommandFactoryTest.TestMakeCommand_WriteTo_ShouldReturnWriteTo*
+  commentId: Overload:ASEProjectTest.ASE_Test_Project.CommandFactoryTest.TestMakeCommand_WriteTo_ShouldReturnWriteTo
+  href: ASEProjectTest.ASE_Test_Project.CommandFactoryTest.html#ASEProjectTest_ASE_Test_Project_CommandFactoryTest_TestMakeCommand_WriteTo_ShouldReturnWriteTo
+  name: TestMakeCommand_WriteTo_ShouldReturnWriteTo
+  nameWithType: CommandFactoryTest.TestMakeCommand_WriteTo_ShouldReturnWriteTo
+  fullName: ASEProjectTest.ASE_Test_Project.CommandFactoryTest.TestMakeCommand_WriteTo_ShouldReturnWriteTo
+- uid: Ase_AyushK.C._77356749.Draw
+  commentId: T:Ase_AyushK.C._77356749.Draw
+  href: Ase_AyushK.C._77356749.Draw.html
+  name: Draw
+  nameWithType: Draw
+  fullName: Ase_AyushK.C._77356749.Draw
+- uid: ASEProjectTest.ASE_Test_Project.CommandFactoryTest.TestMakeCommand_DrawTo_ShouldReturnAppDrawTo*
+  commentId: Overload:ASEProjectTest.ASE_Test_Project.CommandFactoryTest.TestMakeCommand_DrawTo_ShouldReturnAppDrawTo
+  href: ASEProjectTest.ASE_Test_Project.CommandFactoryTest.html#ASEProjectTest_ASE_Test_Project_CommandFactoryTest_TestMakeCommand_DrawTo_ShouldReturnAppDrawTo
+  name: TestMakeCommand_DrawTo_ShouldReturnAppDrawTo
+  nameWithType: CommandFactoryTest.TestMakeCommand_DrawTo_ShouldReturnAppDrawTo
+  fullName: ASEProjectTest.ASE_Test_Project.CommandFactoryTest.TestMakeCommand_DrawTo_ShouldReturnAppDrawTo
+- uid: Ase_AyushK.C._77356749.PenColourChanger
+  commentId: T:Ase_AyushK.C._77356749.PenColourChanger
+  href: Ase_AyushK.C._77356749.PenColourChanger.html
+  name: PenColourChanger
+  nameWithType: PenColourChanger
+  fullName: Ase_AyushK.C._77356749.PenColourChanger
+- uid: ASEProjectTest.ASE_Test_Project.CommandFactoryTest.TestMakeCommand_PenColour_ShouldReturnAppPenColour*
+  commentId: Overload:ASEProjectTest.ASE_Test_Project.CommandFactoryTest.TestMakeCommand_PenColour_ShouldReturnAppPenColour
+  href: ASEProjectTest.ASE_Test_Project.CommandFactoryTest.html#ASEProjectTest_ASE_Test_Project_CommandFactoryTest_TestMakeCommand_PenColour_ShouldReturnAppPenColour
+  name: TestMakeCommand_PenColour_ShouldReturnAppPenColour
+  nameWithType: CommandFactoryTest.TestMakeCommand_PenColour_ShouldReturnAppPenColour
+  fullName: ASEProjectTest.ASE_Test_Project.CommandFactoryTest.TestMakeCommand_PenColour_ShouldReturnAppPenColour
+- uid: Ase_AyushK.C._77356749.Filler
+  commentId: T:Ase_AyushK.C._77356749.Filler
+  href: Ase_AyushK.C._77356749.Filler.html
+  name: Filler
+  nameWithType: Filler
+  fullName: Ase_AyushK.C._77356749.Filler
+- uid: ASEProjectTest.ASE_Test_Project.CommandFactoryTest.TestMakeCommand_Fill_ShouldReturnFill*
+  commentId: Overload:ASEProjectTest.ASE_Test_Project.CommandFactoryTest.TestMakeCommand_Fill_ShouldReturnFill
+  href: ASEProjectTest.ASE_Test_Project.CommandFactoryTest.html#ASEProjectTest_ASE_Test_Project_CommandFactoryTest_TestMakeCommand_Fill_ShouldReturnFill
+  name: TestMakeCommand_Fill_ShouldReturnFill
+  nameWithType: CommandFactoryTest.TestMakeCommand_Fill_ShouldReturnFill
+  fullName: ASEProjectTest.ASE_Test_Project.CommandFactoryTest.TestMakeCommand_Fill_ShouldReturnFill
+- uid: Ase_AyushK.C._77356749.PenSize
+  commentId: T:Ase_AyushK.C._77356749.PenSize
+  href: Ase_AyushK.C._77356749.PenSize.html
+  name: PenSize
+  nameWithType: PenSize
+  fullName: Ase_AyushK.C._77356749.PenSize
+- uid: ASEProjectTest.ASE_Test_Project.CommandFactoryTest.TestMakeCommand_PenSize_ShouldReturnPenSize*
+  commentId: Overload:ASEProjectTest.ASE_Test_Project.CommandFactoryTest.TestMakeCommand_PenSize_ShouldReturnPenSize
+  href: ASEProjectTest.ASE_Test_Project.CommandFactoryTest.html#ASEProjectTest_ASE_Test_Project_CommandFactoryTest_TestMakeCommand_PenSize_ShouldReturnPenSize
+  name: TestMakeCommand_PenSize_ShouldReturnPenSize
+  nameWithType: CommandFactoryTest.TestMakeCommand_PenSize_ShouldReturnPenSize
+  fullName: ASEProjectTest.ASE_Test_Project.CommandFactoryTest.TestMakeCommand_PenSize_ShouldReturnPenSize
+- uid: Ase_AyushK.C._77356749.Clear
+  commentId: T:Ase_AyushK.C._77356749.Clear
+  href: Ase_AyushK.C._77356749.Clear.html
+  name: Clear
+  nameWithType: Clear
+  fullName: Ase_AyushK.C._77356749.Clear
+- uid: ASEProjectTest.ASE_Test_Project.CommandFactoryTest.TestMakeCommand_Clear_ShouldReturnClear*
+  commentId: Overload:ASEProjectTest.ASE_Test_Project.CommandFactoryTest.TestMakeCommand_Clear_ShouldReturnClear
+  href: ASEProjectTest.ASE_Test_Project.CommandFactoryTest.html#ASEProjectTest_ASE_Test_Project_CommandFactoryTest_TestMakeCommand_Clear_ShouldReturnClear
+  name: TestMakeCommand_Clear_ShouldReturnClear
+  nameWithType: CommandFactoryTest.TestMakeCommand_Clear_ShouldReturnClear
+  fullName: ASEProjectTest.ASE_Test_Project.CommandFactoryTest.TestMakeCommand_Clear_ShouldReturnClear
+- uid: Ase_AyushK.C._77356749.Reset
+  commentId: T:Ase_AyushK.C._77356749.Reset
+  href: Ase_AyushK.C._77356749.Reset.html
+  name: Reset
+  nameWithType: Reset
+  fullName: Ase_AyushK.C._77356749.Reset
+- uid: ASEProjectTest.ASE_Test_Project.CommandFactoryTest.TestMakeCommand_Reset_ShouldReturnReset*
+  commentId: Overload:ASEProjectTest.ASE_Test_Project.CommandFactoryTest.TestMakeCommand_Reset_ShouldReturnReset
+  href: ASEProjectTest.ASE_Test_Project.CommandFactoryTest.html#ASEProjectTest_ASE_Test_Project_CommandFactoryTest_TestMakeCommand_Reset_ShouldReturnReset
+  name: TestMakeCommand_Reset_ShouldReturnReset
+  nameWithType: CommandFactoryTest.TestMakeCommand_Reset_ShouldReturnReset
+  fullName: ASEProjectTest.ASE_Test_Project.CommandFactoryTest.TestMakeCommand_Reset_ShouldReturnReset
+- uid: BOOSE.FactoryException
+  commentId: T:BOOSE.FactoryException
+  parent: BOOSE
+  isExternal: true
+  name: FactoryException
+  nameWithType: FactoryException
+  fullName: BOOSE.FactoryException
+- uid: ASEProjectTest.ASE_Test_Project.CommandFactoryTest.TestMakeCommand_InvalidCommand_ShouldThrowFactoryException*
+  commentId: Overload:ASEProjectTest.ASE_Test_Project.CommandFactoryTest.TestMakeCommand_InvalidCommand_ShouldThrowFactoryException
+  href: ASEProjectTest.ASE_Test_Project.CommandFactoryTest.html#ASEProjectTest_ASE_Test_Project_CommandFactoryTest_TestMakeCommand_InvalidCommand_ShouldThrowFactoryException
+  name: TestMakeCommand_InvalidCommand_ShouldThrowFactoryException
+  nameWithType: CommandFactoryTest.TestMakeCommand_InvalidCommand_ShouldThrowFactoryException
+  fullName: ASEProjectTest.ASE_Test_Project.CommandFactoryTest.TestMakeCommand_InvalidCommand_ShouldThrowFactoryException
+- uid: BOOSE
+  commentId: N:BOOSE
+  isExternal: true
+  name: BOOSE
+  nameWithType: BOOSE
+  fullName: BOOSE

@@ -1,0 +1,515 @@
+### YamlMime:ManagedReference
+items:
+- uid: Ase_AyushK.C._77356749.GlobalConfig
+  commentId: T:Ase_AyushK.C._77356749.GlobalConfig
+  id: GlobalConfig
+  parent: Ase_AyushK.C._77356749
+  children:
+  - Ase_AyushK.C._77356749.GlobalConfig.IsFillEnabled
+  - Ase_AyushK.C._77356749.GlobalConfig.MaxX
+  - Ase_AyushK.C._77356749.GlobalConfig.MaxY
+  - Ase_AyushK.C._77356749.GlobalConfig.PenSize
+  langs:
+  - csharp
+  - vb
+  name: GlobalConfig
+  nameWithType: GlobalConfig
+  fullName: Ase_AyushK.C._77356749.GlobalConfig
+  type: Class
+  source:
+    remote:
+      path: Ase-AyushK.C.-77356749/GlobalConfig.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-Ayush2487342.git
+    id: GlobalConfig
+    path: Ase-AyushK.C.-77356749/GlobalConfig.cs
+    startLine: 11
+  assemblies:
+  - Ase-AyushK.C.-77356749
+  namespace: Ase_AyushK.C._77356749
+  summary: Manages global configuration settings for canvas properties in drawing operations.
+  example: []
+  syntax:
+    content: public class GlobalConfig
+    content.vb: Public Class GlobalConfig
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: Ase_AyushK.C._77356749.GlobalConfig.MaxX
+  commentId: P:Ase_AyushK.C._77356749.GlobalConfig.MaxX
+  id: MaxX
+  parent: Ase_AyushK.C._77356749.GlobalConfig
+  langs:
+  - csharp
+  - vb
+  name: MaxX
+  nameWithType: GlobalConfig.MaxX
+  fullName: Ase_AyushK.C._77356749.GlobalConfig.MaxX
+  type: Property
+  source:
+    remote:
+      path: Ase-AyushK.C.-77356749/GlobalConfig.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-Ayush2487342.git
+    id: MaxX
+    path: Ase-AyushK.C.-77356749/GlobalConfig.cs
+    startLine: 22
+  assemblies:
+  - Ase-AyushK.C.-77356749
+  namespace: Ase_AyushK.C._77356749
+  summary: >-
+    Gets or sets the maximum X coordinate (width) of the canvas.
+
+    This value defines the maximum horizontal position during drawing operations.
+
+    The default value is 640 pixels.
+  remarks: >-
+    The value of MaxX should be updated if you want to change the canvas's horizontal limit.
+
+    It should be a positive integer value.
+  example: []
+  syntax:
+    content: public static int MaxX { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Shared Property MaxX As Integer
+  overload: Ase_AyushK.C._77356749.GlobalConfig.MaxX*
+- uid: Ase_AyushK.C._77356749.GlobalConfig.MaxY
+  commentId: P:Ase_AyushK.C._77356749.GlobalConfig.MaxY
+  id: MaxY
+  parent: Ase_AyushK.C._77356749.GlobalConfig
+  langs:
+  - csharp
+  - vb
+  name: MaxY
+  nameWithType: GlobalConfig.MaxY
+  fullName: Ase_AyushK.C._77356749.GlobalConfig.MaxY
+  type: Property
+  source:
+    remote:
+      path: Ase-AyushK.C.-77356749/GlobalConfig.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-Ayush2487342.git
+    id: MaxY
+    path: Ase-AyushK.C.-77356749/GlobalConfig.cs
+    startLine: 33
+  assemblies:
+  - Ase-AyushK.C.-77356749
+  namespace: Ase_AyushK.C._77356749
+  summary: >-
+    Gets or sets the maximum Y coordinate (height) of the canvas.
+
+    This value defines the maximum vertical position during drawing operations.
+
+    The default value is 480 pixels.
+  remarks: >-
+    The value of MaxY should be updated if you want to change the canvas's vertical limit.
+
+    It should be a positive integer value.
+  example: []
+  syntax:
+    content: public static int MaxY { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Shared Property MaxY As Integer
+  overload: Ase_AyushK.C._77356749.GlobalConfig.MaxY*
+- uid: Ase_AyushK.C._77356749.GlobalConfig.IsFillEnabled
+  commentId: P:Ase_AyushK.C._77356749.GlobalConfig.IsFillEnabled
+  id: IsFillEnabled
+  parent: Ase_AyushK.C._77356749.GlobalConfig
+  langs:
+  - csharp
+  - vb
+  name: IsFillEnabled
+  nameWithType: GlobalConfig.IsFillEnabled
+  fullName: Ase_AyushK.C._77356749.GlobalConfig.IsFillEnabled
+  type: Property
+  source:
+    remote:
+      path: Ase-AyushK.C.-77356749/GlobalConfig.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-Ayush2487342.git
+    id: IsFillEnabled
+    path: Ase-AyushK.C.-77356749/GlobalConfig.cs
+    startLine: 44
+  assemblies:
+  - Ase-AyushK.C.-77356749
+  namespace: Ase_AyushK.C._77356749
+  summary: >-
+    Gets or sets a value indicating whether the fill mode is enabled during drawing operations.
+
+    When enabled, shapes will be filled rather than outlined.
+
+    The default value is false.
+  remarks: >-
+    The value of IsFillEnabled should be updated to enable or disable fill mode.
+
+    It should be a boolean value: true for enabled and false for disabled.
+  example: []
+  syntax:
+    content: public static bool IsFillEnabled { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Property IsFillEnabled As Boolean
+  overload: Ase_AyushK.C._77356749.GlobalConfig.IsFillEnabled*
+- uid: Ase_AyushK.C._77356749.GlobalConfig.PenSize
+  commentId: P:Ase_AyushK.C._77356749.GlobalConfig.PenSize
+  id: PenSize
+  parent: Ase_AyushK.C._77356749.GlobalConfig
+  langs:
+  - csharp
+  - vb
+  name: PenSize
+  nameWithType: GlobalConfig.PenSize
+  fullName: Ase_AyushK.C._77356749.GlobalConfig.PenSize
+  type: Property
+  source:
+    remote:
+      path: Ase-AyushK.C.-77356749/GlobalConfig.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-Ayush2487342.git
+    id: PenSize
+    path: Ase-AyushK.C.-77356749/GlobalConfig.cs
+    startLine: 54
+  assemblies:
+  - Ase-AyushK.C.-77356749
+  namespace: Ase_AyushK.C._77356749
+  summary: >-
+    Gets or sets the global pen size used in drawing operations.
+
+    The pen size determines the thickness of lines and strokes in drawing operations.
+
+    A value of 1 indicates minimum pen thickness, and the default value is 1.
+  remarks: The pen size can be adjusted according to the desired thickness of lines and strokes.
+  example: []
+  syntax:
+    content: public static int PenSize { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Shared Property PenSize As Integer
+  overload: Ase_AyushK.C._77356749.GlobalConfig.PenSize*
+references:
+- uid: Ase_AyushK.C._77356749
+  commentId: N:Ase_AyushK.C._77356749
+  href: Ase_AyushK.html
+  name: Ase_AyushK.C._77356749
+  nameWithType: Ase_AyushK.C._77356749
+  fullName: Ase_AyushK.C._77356749
+  spec.csharp:
+  - uid: Ase_AyushK
+    name: Ase_AyushK
+    href: Ase_AyushK.html
+  - name: .
+  - uid: Ase_AyushK.C
+    name: C
+    href: Ase_AyushK.C.html
+  - name: .
+  - uid: Ase_AyushK.C._77356749
+    name: _77356749
+    href: Ase_AyushK.C._77356749.html
+  spec.vb:
+  - uid: Ase_AyushK
+    name: Ase_AyushK
+    href: Ase_AyushK.html
+  - name: .
+  - uid: Ase_AyushK.C
+    name: C
+    href: Ase_AyushK.C.html
+  - name: .
+  - uid: Ase_AyushK.C._77356749
+    name: _77356749
+    href: Ase_AyushK.C._77356749.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Ase_AyushK.C._77356749.GlobalConfig.MaxX*
+  commentId: Overload:Ase_AyushK.C._77356749.GlobalConfig.MaxX
+  href: Ase_AyushK.C._77356749.GlobalConfig.html#Ase_AyushK_C__77356749_GlobalConfig_MaxX
+  name: MaxX
+  nameWithType: GlobalConfig.MaxX
+  fullName: Ase_AyushK.C._77356749.GlobalConfig.MaxX
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: Ase_AyushK.C._77356749.GlobalConfig.MaxY*
+  commentId: Overload:Ase_AyushK.C._77356749.GlobalConfig.MaxY
+  href: Ase_AyushK.C._77356749.GlobalConfig.html#Ase_AyushK_C__77356749_GlobalConfig_MaxY
+  name: MaxY
+  nameWithType: GlobalConfig.MaxY
+  fullName: Ase_AyushK.C._77356749.GlobalConfig.MaxY
+- uid: Ase_AyushK.C._77356749.GlobalConfig.IsFillEnabled*
+  commentId: Overload:Ase_AyushK.C._77356749.GlobalConfig.IsFillEnabled
+  href: Ase_AyushK.C._77356749.GlobalConfig.html#Ase_AyushK_C__77356749_GlobalConfig_IsFillEnabled
+  name: IsFillEnabled
+  nameWithType: GlobalConfig.IsFillEnabled
+  fullName: Ase_AyushK.C._77356749.GlobalConfig.IsFillEnabled
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: Ase_AyushK.C._77356749.GlobalConfig.PenSize*
+  commentId: Overload:Ase_AyushK.C._77356749.GlobalConfig.PenSize
+  href: Ase_AyushK.C._77356749.GlobalConfig.html#Ase_AyushK_C__77356749_GlobalConfig_PenSize
+  name: PenSize
+  nameWithType: GlobalConfig.PenSize
+  fullName: Ase_AyushK.C._77356749.GlobalConfig.PenSize
